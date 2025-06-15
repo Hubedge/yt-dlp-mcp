@@ -84,6 +84,7 @@ export async function downloadSubtitles(
       '--write-sub',
       '--write-auto-sub',
       '--sub-lang', language,
+      '--sub-format', 'srv1',
       '--skip-download',
       '--output', path.join(tempDir, '%(title)s.%(ext)s'),
       url
